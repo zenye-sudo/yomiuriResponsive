@@ -155,38 +155,24 @@ section .content2div .photoAndPDiv img{
 }
 /*content02 page end */
 /*content03 page start */
-.maincontent{
-	padding-top: 0%;
-	padding-left:0%;
-}	
-.col {
-	/**float:left; dont need this**/
-	padding: 1%;
+.imageGallery{
+	padding:20px;
+	width:100%;
 }
-.col-lg{
-	/**float:left; dont need this**/
-    height: 200px;
-    overflow: hidden;
-    margin: 10px 0;
-    position: relative;
-    flex-basis: 30%;
+.imageGalleryGrid{
+	display:grid;
+	grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+	grid-gap: 40px;
+}
+.thumbnail-container {
+    overflow: hidden; /* Ensures the image doesn't overflow the container */
+    border: 1px solid #ccc; /* Optional: Add a border for visual separation */
 }
 
-  /* Images crop and center to col-lg box up to 1000% centering (if 100% if it's 3x the size it doesn't fully center)Idk man why? projectors and stuff? */
-.col-lg img{
-	display:block;
-    position: absolute;
-    left: -1000%;
-    right: -1000%;
-    top: -1000%;
-    bottom: -1000%;
-    margin: auto;
-    min-height: 100%;
-    min-width: 100%;
-}
-.imgrid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.thumbnail-container img {
+    width: 100%; /* Ensures the image fills the container */
+    height: 100%; /* Ensures the image fills the container */
+    object-fit: cover; /* Ensures the image covers the container without stretching */
+    transform: scale(1.2); /* Zoom effect by default */
 }
 /*content03 page end */
