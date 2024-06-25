@@ -1,0 +1,192 @@
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+/* header start */
+.header{
+		background-image: url("../images/herolong.jpg");
+		height:500px;
+}
+.header .naviDiv{
+	height:20%;
+}
+.header .naviDiv ul{
+	display:flex;
+	justify-content: flex-end;
+}
+.header .naviDiv ul li{
+	list-style-type: none;
+	text-align: center;
+	width:10%;
+	line-height:100px;
+}
+.header .naviDiv ul li a{
+	display:block;
+	width:100%;
+	text-decoration: none;
+	color:black;
+	
+}
+.header .brand{
+   width:100%;
+   text-align: center;
+   line-height:280px;/*400-20-100*/
+	color:white;
+}
+/* header end */
+
+/*index page start */
+.section{
+	width:1000px;
+	margin:50px auto;
+	/* background-color:grey; */
+
+}
+.section .maruImage ul{
+	display: flex;
+	/* background-color:green; */
+	padding:0;
+}
+.section .maruImage ul li{
+	width:300px;
+	/* background-color:red; */
+	margin:0 auto;
+	text-align: center;
+	list-style-type: none;
+
+}
+.section .maruImage ul li img{
+	width:80%;
+	border-radius: 100%;
+}
+.section .maruImage ul li a{
+	text-decoration: none;
+}
+.section .title{
+	margin-top:5%;
+	/* background-color:red; */
+	/* padding:5px; */
+	font-size:15px;
+	padding-left: 4%;
+	font-size:2em;
+	
+}
+.section .lists{
+	width:100%;
+	margin:0 auto;
+	margin-bottom:0;
+	/* background-color:blue; */
+}
+.section .lists table{
+	width:95%;
+	border-collapse: collapse;
+	margin:0 auto;
+}
+.section .lists tr{
+	border-bottom: 1px dotted gray;
+}
+.section .lists td{
+	padding:2%;
+}
+.section .lists table td:first-child{
+	width:20%;
+}
+.section .lists table td:last-child{
+	width:80%;
+}
+/*index page end */
+
+/*content01 page start */
+section .content1div,section .content2div{
+	width:100%;
+	/* background-color:blue; */
+}
+section .content1div h1,section .content2div h1{
+ padding:10px;
+}
+section .content1div .photoAndPDiv,section .content2div .photoAndPDiv{
+	padding:10px;
+}
+section .content1div .photoAndPDiv p,section .content2div .photoAndPDiv p{
+	text-align:justify;
+}
+section .content1div .photoAndPDiv img{
+	padding-left:20px;
+	width:400px;
+	float:right;
+}
+.clear{
+	clear: both;
+}
+section .content2div .photoAndPDiv img{
+	width:400px;
+	float:left;
+	padding-right:20px;
+}
+/*content01 page end */
+/*content02 page start */
+#content02Page .content01{
+}
+#content02Page .content01 h1{
+	padding:19px 0;
+	}
+	#content02Page .content01 p,#content02Page .content02 p{
+		padding:19px;
+		text-align: justify;
+		}
+.content01Photo{
+
+}
+.imageRange{
+	display:flex;
+	justify-content: center;
+	padding:30px;
+}
+.content01 .imageRange img{
+	width:250px;
+	padding:0 3%;
+}
+.content02 .imageRange img{
+	width:400px;
+	padding:0 3%;
+}.content02 p:first-child{
+	font-size:1.4em;
+}
+/*content02 page end */
+/*content03 page start */
+.maincontent{
+	padding-top: 0%;
+	padding-left:0%;
+}	
+.col {
+	/**float:left; dont need this**/
+	padding: 1%;
+}
+.col-lg{
+	/**float:left; dont need this**/
+    height: 200px;
+    overflow: hidden;
+    margin: 10px 0;
+    position: relative;
+    flex-basis: 30%;
+}
+
+  /* Images crop and center to col-lg box up to 1000% centering (if 100% if it's 3x the size it doesn't fully center)Idk man why? projectors and stuff? */
+.col-lg img{
+	display:block;
+    position: absolute;
+    left: -1000%;
+    right: -1000%;
+    top: -1000%;
+    bottom: -1000%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+}
+.imgrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/*content03 page end */
