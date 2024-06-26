@@ -176,3 +176,119 @@ section .content2div .photoAndPDiv img{
     transform: scale(1.2); /* Zoom effect by default */
 }
 /*content03 page end */
+/*contact page start*/
+.section .contactUsTitle{
+	/* background-color:blue; */
+}
+.section .contactUsTitle span,.section .contactUsBody .nameDiv span:first-child,.section .contactUsBody .emailDiv span:first-child,.section .contactUsBody .emailConfirmDiv span:first-child,.inquryDivCaption span:first-child{
+	background-color:rgb(244, 106, 0);
+	border-radius: 2px;
+	padding:2px;
+	color:white;
+	margin-right:3px;
+}
+.section .contactUsTitle p{
+	padding:3px;
+}
+.nameDiv,.emailDiv,.emailConfirmDiv,.addressDiv,.phoneDiv,.inquryDiv{
+	width:100%;
+	text-align: center;
+	display:flex;
+	/* background-color:pink; */
+
+}
+.nameDivCaption,.emailDivCaption,.emailConfirmDivCaption,.phoneDivCaption{
+	text-align: left;
+	padding-bottom:2%;
+	margin-left:5%;
+	width:20%;
+	border-bottom: 1px dotted black;
+}
+.nameDivInput,.emailDivInput,.emailConfirmDivInput{
+	width:75%;
+	/* background-color:red; */
+	text-align:center;
+	border-bottom: 1px dotted black;;
+}
+.addressDivInput{
+	width:75%;
+}
+.addressDivCaption,.inquryDivCaption{
+	text-align: left;
+	padding-bottom:15%;
+	margin-left:5%;
+	width:20%;
+	border-bottom: 1px dotted black;
+}
+.postalCode{
+	text-align: left;
+	width:100%;
+	padding-left:10%;
+}
+.postalCode input{
+	width:30%;
+	height:20px;
+}
+.addressFullInput{
+	width:80%;
+	height:20px;
+}
+.addressDivInput p{
+	text-align:left;
+	padding-left:10%;
+}
+.select{
+	text-align:left;
+	padding-left:10%;
+
+}
+.addressDivInput{
+	border-bottom: 1px dotted black;
+}
+.addressDivCaption span:first-child,.phoneDiv span:first-child{
+	background-color:rgb(86, 156, 235);
+	border-radius: 2px;
+	padding:2px;
+	color:white;
+	margin-right:3px;
+}
+.phoneDivInput{
+	width:75%;
+	text-align:left;
+	padding-left:10%;
+	border-bottom: 1px dotted black;
+
+}
+.phoneDivInput input{
+	height:20px;
+}
+.inquryDivInput{
+	width:75%;
+	text-align:left;
+	padding-left:10%;
+	border-bottom: 1px dotted black;;
+}
+.inquryDivInput textarea{
+	width:75%;
+	height:90%;
+
+}
+.buttonDiv{
+	width:100%;
+	height:1%;
+	text-align: center;
+}
+.buttonDiv button{
+	background-color:#0a6779;
+	color:white;
+	padding:10px;
+	border:none;
+	text-align:center;
+}
+footer{
+	width:100%;
+	background-color:black;
+	color:white;
+	text-align: center;;
+}
+/*contact page end*/
